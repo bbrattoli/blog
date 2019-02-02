@@ -19,7 +19,7 @@ Things started to change in 2017 when a Google Residence student succesfully imp
 ## Past
 Until recently Google had the monopoly on the field, by publishing a series of papers (all from the original V.le team) and implementing a commercial product called AutoML which optimizes the network architecture for the specific task of the client. Just to give you a feeling of how quickly NAS went from research to production, recently Waymo announced a [collaboration with GoogleAI](https://medium.com/waymo/automl-automating-the-design-of-machine-learning-models-for-autonomous-driving-141a5583ec2a) for using AutoML to improve the self-driving car system. 
 
-![Waymo tweet on the collaboration with AutoML](/assets/img/post_NAS/waymo_tweet.png)
+![Waymo tweet on the collaboration with AutoML]({{ site.baseurl }}/assets/img/post_NAS/waymo_tweet.png)
 
 In this section I will give some more insights into three main papers from the Google team.
 
