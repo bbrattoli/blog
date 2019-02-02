@@ -1,13 +1,19 @@
 ---
 layout: post
-title: AutoML and Neural Architecture Search
+title: Neural Architecture Search
 subtitle: past, present and future
-tags: [AutoML, NAS]
+tags: [NAS, MetaLearning]
 feature-img: assets/img/sample_feature_img.png
 hide: false
 ---
+Summary into the past, present and future of Neural Architecture Search (NAS). 
 
-## What is AutoML?
+## What is NAS?
+Neural Architecture search (as the name suggests) are machine learning algorithms for automatic search of neural network architecture. 
+Anyone who had contact with deep learning knows that finding the hyperparameters is very costly and takes most of the computational effort. The cost becames huge when you want to optimize the network architecture to the specific task, in particular defining the number of layers, the activation per layer, the number of filters per convolution, the skip connections, etc... Typically researchers (like me) do not care about the optimizing the architecture, since we are constraint by using the same architecture we are comparing our method with. However, optimizing the architecture for a specific task is crucial for industry, where deep learning engineers spend most of their time on the problem.
+
+Things started to change in 2017 when a Google Residence student succesfully implemented an LSTM which creates the architecture layer by layer, in order to optimize the validation accuracy on CIFAR-10 using roughly 800 gpus for several weeks. At the time this created a lot of hype on the topic, however not many groups had that kind of computational power. In a little more than one year the field evolved until it is now possible to outperform the initial success of Google using a single gpu for half a day. This post is intend to summarize the milestone from the first paper until today.
+
 
 ## Past
 
