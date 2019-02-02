@@ -1,11 +1,21 @@
 ---
 layout: post
 title: AutoML and Neural Architecture Search
-tags: [automl, neural architecture search, deep learning]
+subtitle: past, present and future
+tags: [AutoML, NAS]
+feature-img: assets/img/sample_feature_img.png
+hide: false
 ---
-This is the first post of the blog. I will update it during the next weekend.
+## What is AutoML?
+## Past
+### Zoph and V.le
+### NASNet
+###AmoebaNet
+## Present
+## Future
+### GHN
+### DARTS
+### What now?
+## references
 
-* Test 1 
-* Test 2 
 
-End of the post.
