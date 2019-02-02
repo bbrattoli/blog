@@ -14,8 +14,14 @@ Anyone who had contact with deep learning knows that finding the hyperparameters
 
 Things started to change in 2017 when a Google Residence student succesfully implemented an LSTM which creates the architecture layer by layer, in order to optimize the validation accuracy on CIFAR-10 using roughly 800 gpus for several weeks. At the time this created a lot of hype on the topic, however not many groups had that kind of computational power. In a little more than one year the field evolved until it is now possible to outperform the initial success of Google using a single gpu for half a day. This post is intend to summarize the milestone from the first paper until today.
 
+**Disclaimer**: I cannot cover all papers on the topic, thus I will focus on few which I personally found of interest. If you feel that some majour work has been left out, please send me an email, I am always interested in learning new things.
 
 ## Past
+Until recently Google had the monopoly on the field, by publishing a series of papers (all from the original V.le team) and implementing a commercial product called AutoML which optimizes the network architecture for the specific task of the client. Just to give you a feeling of how quickly NAS went from research to production, recently Waymo announced a [collaboration with GoogleAI](https://medium.com/waymo/automl-automating-the-design-of-machine-learning-models-for-autonomous-driving-141a5583ec2a) for using AutoML to improve the self-driving car system. 
+
+![Waymo tweet on the collaboration with AutoML](/assets/img/post_NAS/waymo_tweet.png)
+
+In this section I will give some more insights into three main papers from the Google team.
 
 ### Zoph and V.le
 
